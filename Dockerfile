@@ -12,6 +12,7 @@ RUN yum install -y epel-release centos-release-scl && yum install -y \
 	make \
 	gtest \
 	gtest-devel \
+	binutils \
 	lcov && mkdir -p /root/lamina
 
 WORKDIR /root/lamina
